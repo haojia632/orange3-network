@@ -88,13 +88,10 @@ ENTRY_POINTS = {
         'network = orangecontrib.network',
     ),
     'orange.widgets': (
-        'Network = orangecontrib.network.widgets',
+        '网络分析 = orangecontrib.network.widgets',
     ),
     'orange.data.io.search_paths': (
         'network = orangecontrib.network:networks',
-    ),
-    'orange.widgets': (
-        'Networks = orangecontrib.network.widgets',
     )
 }
 
